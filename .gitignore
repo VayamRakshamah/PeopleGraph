@@ -1,0 +1,4 @@
+.pnpm-store/
+peoplegraph-prototype/.npm-cache/
+peoplegraph-prototype/node_modules/
+peoplegraph-prototype/dist/
