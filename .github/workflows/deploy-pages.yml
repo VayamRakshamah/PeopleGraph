@@ -37,6 +37,9 @@ jobs:
           cache: pnpm
           cache-dependency-path: peoplegraph-prototype/pnpm-lock.yaml
 
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
